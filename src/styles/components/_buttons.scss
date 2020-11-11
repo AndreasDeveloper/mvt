@@ -1,0 +1,15 @@
+@import '../base/variables';
+
+// Add Button
+.add-btn {
+    background: transparent;
+    border: 3px solid $font-color;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px;
+    width: 150px;
+}

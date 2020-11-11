@@ -1,0 +1,14 @@
+@import '../base/variables';
+@import '../base/extends';
+
+// Add Block
+.add-block {
+    background-color: $color-gray-1;
+    cursor: pointer;
+    height: 300px;
+    @extend %flexCol;
+    .add-icon {
+        height: 30px;
+        width: 30px;
+    }
+}

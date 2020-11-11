@@ -1,0 +1,39 @@
+@import '../base/variables';
+@import '../base/extends';
+
+// Global modal style
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color-black, 0.5);
+    transition: opacity 0.3s ease;
+}
+.modal-wrapper {
+    background-color: $color-white;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 15px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 600px;
+    height: 300px;
+}
+
+// Add Movie Modal
+.add-movie-modal {
+    h2 {
+        text-align: center;
+    }
+    form {
+        @extend %flexCol;
+        input, button {
+            margin: 15px 0;
+        }
+    }
+}

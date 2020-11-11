@@ -1,0 +1,13 @@
+// Flex Row
+%flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+// Flex Column
+%flexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

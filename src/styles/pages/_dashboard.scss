@@ -1,0 +1,16 @@
+@import '../base/extends';
+@import '../base/variables';
+
+.dashboard-wrapper {
+    background-color: $font-color;
+    min-height: 100vh;
+    &__content {
+        margin: 20px;
+        @extend %flexRow;
+        &__section {
+            h2 {
+                color: $color-white;
+            }
+        }
+    }
+}
